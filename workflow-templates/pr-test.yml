@@ -28,7 +28,7 @@ jobs:
             gradle-packages-${{ runner.os }}
 
       - name: Unit test
-        run: ./gradlew -no-build-cache cleanTest jacocoTestReport
+        run: ./gradlew --no-build-cache jacocoTestReport
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
@@ -38,7 +38,7 @@ jobs:
           flags: unit
 
       - name: Integration test
-        run: ./gradlew -no-build-cache cleanTest jacocoIntegrationTestReport
+        run: ./gradlew --no-build-cache jacocoIntegrationTestReport
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
