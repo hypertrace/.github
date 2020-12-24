@@ -1,0 +1,8 @@
+{
+    "name": "PR build workflow",
+    "description": "Build docker image, runs snyk scan and validates helm charts on pull request target.",
+    "iconName": "ht-favicon",
+    "categories": [
+        "Java", "gradle", "snyk", "docker", "helm"
+    ]
+}

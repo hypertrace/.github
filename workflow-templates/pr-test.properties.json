@@ -1,0 +1,8 @@
+{
+    "name": "PR tests workflow",
+    "description": "Runs unit tests and integration tests for particular project.",
+    "iconName": "ht-favicon",
+    "categories": [
+        "Java", "gradle", "unit-test", "integration-test"
+    ]
+}

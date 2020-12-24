@@ -1,0 +1,8 @@
+{
+    "name": "Publish docker image on merge",
+    "description": "Publishes docker image with main tag on push to main branch. ",
+    "iconName": "ht-favicon",
+    "categories": [
+        "Java", "gradle", "docker"
+    ]
+}

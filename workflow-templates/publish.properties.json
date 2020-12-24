@@ -1,0 +1,8 @@
+{
+    "name": "Publish artifacts and helm charts",
+    "description": "Publishes docker image, jars and helm charts on release.",
+    "iconName": "ht-favicon",
+    "categories": [
+        "Java", "gradle", "docker", "helm"
+    ]
+}
