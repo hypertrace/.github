@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: create checksum file
-        uses: hypertrace/actions/checksum@main
+        uses: hypertrace/github-actions/checksum@main
 
       - name: Cache packages
         id: cache-packages
@@ -62,4 +62,4 @@ jobs:
         env:
           HELM_GCS_CREDENTIALS: ${{ secrets.HELM_GCS_CREDENTIALS }}
           HELM_GCS_REPOSITORY: ${{ secrets.HELM_GCS_REPOSITORY }}
-        uses: hypertrace/actions/helm-gcs-publish@main
+        uses: hypertrace/github-actions/helm-gcs-publish@main
